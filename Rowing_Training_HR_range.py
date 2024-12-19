@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Hello")
+st.set_page_config(page_title="Ergo is happy")
 st.title("Calculation of AT/UT")
 st.write("""**Training Heart Rate Range**\nTo determine your THRR you need to first determine the following values:\n - Maximum Heart Rate (MHR)\n- Resting Heart Rate (RHR)\n- Heart Rate Reserve (HRR)""")
 st.divider()
