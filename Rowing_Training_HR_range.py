@@ -27,10 +27,10 @@ if button:
     mhr=205.8 - (0.685 * int(age))
     hrr=mhr-int(rhr)
     hrr_rhr=hrr+int(rhr)
-    ut2=[round(0.65*hrr_rhr,2),round(0.75*hrr_rhr,2)]
-    ut1=[round(0.75*hrr_rhr,2),round(0.8*hrr_rhr,2)]
-    at=[round(0.8*hrr_rhr,2),round(0.85*hrr_rhr,2)]
-    an=[round(0.85*hrr_rhr,2), "Your Max"]
+    ut2=[round(0.65*hrr+rhr,2),round(0.75*hrr+rhr,2)]
+    ut1=[round(0.75*hrr+rhr,2),round(0.8*hrr+rhr,2)]
+    at=[round(0.8*hrr+rhr,2),round(0.85*hrr+rhr,2)]
+    an=[round(0.85*hrr+rhr,2), "Your Max"]
     result={"Type":["Min","Max"],
             "UT2":ut2,
             "UT1":ut1,
